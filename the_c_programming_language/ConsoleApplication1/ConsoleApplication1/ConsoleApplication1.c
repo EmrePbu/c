@@ -1,15 +1,22 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-#define		LOWER		0
-#define		UPPER		300
-#define		STEP		20
-
 void main(void)
 {
-	int fahr;
+	/* Character Input and Output */
 
-	for (fahr = LOWER; fahr <= UPPER; fahr += STEP)
-		printf("%3d %6.1f\n", fahr, (5.0 / 9.0) * (fahr - 32));
+	/*int c;
+	while ((c = getchar()) != EOF)
+		putchar(c);*/
 
+	/*long nc;
+	nc = 0;
+	while (getchar() != EOF)
+		++nc;
+	printf("%ld\n", nc);*/
+
+	double nc;
+	for (nc = 0; getchar() != EOF; ++nc)
+		; // null statement
+	printf("%.0f\n", nc);
 }
