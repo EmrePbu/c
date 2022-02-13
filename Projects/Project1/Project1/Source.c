@@ -60,3 +60,4 @@ void main(void)
 	//}
 	//printf("%d %d %d \n", nl, nw, nc);
 }
+ 
