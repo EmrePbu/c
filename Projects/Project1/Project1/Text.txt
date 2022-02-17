@@ -112,3 +112,102 @@
 	//	for (i = 0; i < 10; ++i)
 	//		printf("%d\t%d\t%d\n", i, power(2, i), power(-3, i));
 	//}
+
+
+//#define		MAXLINE		1000
+//
+//#include <stdio.h>
+//
+//int getline(char line[], int maxline);
+//void copy(char to[], char from[]);
+//
+//void main(void)
+//{
+//	int len;				// Currrent line length
+//	int max;				// Maximum length seen so far
+//	char line[MAXLINE];		// Current input line
+//	char longest[MAXLINE];	// Longest line saved here
+//
+//	max = 0;
+//	while ((len = getline(line, MAXLINE)) > 0)
+//		if (len > max)
+//		{
+//			max = len;
+//			copy(longest, line);
+//		}
+//	if (max > 0)
+//		printf("%s", longest);
+//	return 0;
+//}
+//
+//int getline(char line[], int maxline)
+//{
+//	int c, i;
+//	for (i = 0; i < maxline - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
+//		line[i] = c;
+//	if (c == '\n')
+//	{
+//		line[i] = c;
+//		++i;
+//	}
+//	line[i] = '\0';
+//	return i;
+//}
+//
+//void copy(char to[], char from[])
+//{
+//	int i;
+//	i = 0;
+//	while ((to[i] = from[i]) != '\0')
+//		++i;
+//
+//}
+
+
+// #a, a##b
+	//#define		i_print(x)		printf(#x " = %d\n", x, x)
+	//#define		c_print(c)		printf(#c " = %c\n", c, c)
+	//
+	//#define		uni(a,b)		a##b
+	//
+	//#define		MAX_FUNC(T)		T getmax_##T(const T *p, int size)	\
+	//								{									\
+	//									T max = *p;						\
+	//									for (int i = 0; i < size; i++)	\
+	//										if (p[i] > max)				\
+	//											max = p[i];				\
+	//									return max;						\
+	//								}									\
+	//
+	//#define		PUBLIC
+	//MAX_FUNC(int)
+	//MAX_FUNC(char)
+	//
+	//
+	//PUBLIC int emre()
+	//{
+	//	return 0;
+	//}
+	//
+	//void main(void)
+	//{
+	//	int a = 10;
+	//	int b = 7;
+	//	i_print(a * b + b * a);
+	//
+	//	int counter = 0;
+	//	uni(co, unter) = 20;
+	//	i_print(counter);
+	//
+	//	int arr[4] = { 10, 20, 30, 1 };
+	//	i_print(getmax_int(arr, 4));
+	//
+	//	char arr2[4] = { 'a', 'm', 'e', 'R' };
+	//	c_print(getmax_char(arr2, 4));
+	//
+	//
+	//	// boþ bir define tanýmladýðýnda tanýmlanan makroyu siler.
+	//	// derleyici int number = 1; olarak görecek.
+	//	PUBLIC int number = 1;
+	//
+	//}
