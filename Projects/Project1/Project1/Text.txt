@@ -211,3 +211,21 @@
 	//	PUBLIC int number = 1;
 	//
 	//}
+
+
+	#define _CRT_SECURE_NO_WARNINGS
+#define _USE_MATH_DEFINES
+#undef		SIZE
+#define		SIZE		100
+
+#include <stdio.h>
+#include <math.h>
+#include "utils.h"
+
+
+void main(void)
+{
+	double d_val = M_PI;
+
+	int i_val = __LINE__;
+}
