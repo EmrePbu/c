@@ -3,27 +3,38 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void func(int a)
-{
-	printf("%s fonksiyonuna gelen paramatre degeri : %d", __func__, a);
-}
-
 
 int main(void)
 {
-	int i_val;
-	printf("Bir tam sayi giriniz : ");
-	(void)scanf("%d", &i_val);
-
-	if (i_val != 0)
+	for (;;)
 	{
-#line 2000 "emre.cCc"
-		printf("%s dosyasinin %d. satirinda i_val degeri 0 dan farklý bir deger olarak girildi.\n", __FILE__, __LINE__);
-
-		printf("%s\n", __TIME__);
-		printf("%s\n", __TIMESTAMP__);
-		printf("%s\n", __DATE__);
-
-		func(30);
+		switch (rand() % 7 + 1)
+		{
+		case 1:
+			printf("Pazartesi\n");
+			break;
+		case 2:
+			printf("Sali\n");
+			break;
+		case 3:
+			printf("Carsamba\n");
+			break;
+		case 4:
+			printf("Persembe\n");
+			break;
+		case 5:
+			printf("Cuma\n");
+			break;
+		case 6:
+			printf("Cumartesi\n");
+			break;
+		case 7:
+			printf("Pazar\n");
+			break;
+		default:
+			break;
+		}
+		if (getchar() == 'q')
+			break;
 	}
 }
