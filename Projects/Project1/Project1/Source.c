@@ -15,18 +15,15 @@ int main(void)
 	printf("Bir tam sayi giriniz : ");
 	(void)scanf("%d", &i_val);
 
-	if (i_val == 0)
+	if (i_val != 0)
 	{
-		//printf("Source.c dosyasinin %d. satirinda i_val degeri 0 olarak farkedildi.\n", __LINE__);
+#line 2000 "emre.cCc"
+		printf("%s dosyasinin %d. satirinda i_val degeri 0 dan farklý bir deger olarak girildi.\n", __FILE__, __LINE__);
 
-		//printf("%s", __FILE__);
-
-		//printf("%s\n", __TIME__);
-		//printf("%s\n", __TIMESTAMP__);
-		//printf("%s\n", __DATE__);
+		printf("%s\n", __TIME__);
+		printf("%s\n", __TIMESTAMP__);
+		printf("%s\n", __DATE__);
 
 		func(30);
-
-		abort();
 	}
 }
