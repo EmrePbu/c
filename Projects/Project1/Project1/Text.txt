@@ -229,3 +229,32 @@ void main(void)
 
 	int i_val = __LINE__;
 }
+
+
+
+	//for (unsigned int i = 0; i < 100; i++)
+	//{
+	//	srand(i);
+	//	printf("tohum degeri %u icin uretilen 10 deger\n", i);
+	//	for (int k = 0; k < 10; k++)
+	//	{
+	//		printf("%d ", rand());
+	//	}
+	//	putchar('\n');
+	//}
+
+	//for (;;)
+	//{
+	//	putchar(rand() % 26 + 'A');
+	//	(void)_getch();
+	//}
+
+	//for (;;)
+	//{
+	//	printf("%lld\n", time(NULL));
+	//	srand((unsigned int)time(NULL));
+	//	printf("%d\n", rand());
+	//	(void)_getch();
+	//}
+		//for (;;)
+		//printf("%lld\r", time(NULL));

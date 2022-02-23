@@ -1,3 +1,4 @@
+// bu þekilde tanýmlamamýzýn sebebi bu dosyanýn 2 ve fazla bir þekilde çaðýrmasýný engellemek için
 #ifndef _UTILS_H
 #define _UTILS_H
 
