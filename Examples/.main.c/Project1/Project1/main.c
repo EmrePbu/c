@@ -1,12 +1,10 @@
-//Accessing 2 - D Array Elements In C Programming
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
-{
+int main(void) {
 
-
+	
 	return EXIT_SUCCESS;
 }
